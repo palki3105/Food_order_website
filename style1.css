@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    opacity: 0.89;
+    justify-content: center;
+}
+#navbar img{
+    height: 100px;
+    width: 100px;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li a{
+    padding:  0px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin: 20px;
+    /* background: url(./bg.jpg) no-repeat center center/cover;
+    position:relative; */
+}
+#home::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 90%;
+    z-index: -1;
+    background: url(./bg.jpg) no-repeat center center/cover;
+}
+#home h1{
+    font-size: 30px;
+    padding: 10px;
+}
+#home p {
+    font-size: 25px;
+    padding: 5px ;
+}
+.btn{
+
+    font-size: 20px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:orange;
+}
+#services-container{
+    margin-top: 150px;
+}
+#services-container h1{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    padding: 20px;
+    margin: 30px;
+    opacity: 0.9;
+
+}
+#services{
+ display: flex;
+ padding: 10px 30px;
+}
+.box{
+    padding: 10px;
+    border: 2px solid brown;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgb(249, 244, 237);
+}
+.box h2{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.box p{
+}
+#services img{
+    height: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+}
+.center{
+    text-align: center;
+}
+#client-section{
+    background: url(./bg1.jpg) no-repeat center center/cover;
+    height: 400px;
+    opacity: 0.9;
+    padding: 30px;
+
+}
+#client-section h1{
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    opacity: 0.9;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.client-item img{
+    padding: 30px;
+    height: 150px;
+    width: 150px;
+}
+#contact{
+    background: url(./contact.jpg) no-repeat center center/cover;
+    height: 520px;
+    opacity: 0.89;
+    padding: 30px;
+}
+#contact h1{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    padding:20px;
+    opacity: 0.9;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#contact-box div{
+    margin: 10px;
+}
+.form-group label{
+    font-size: 20px;
+}
+.form-group input{
+    font-size: 15px;
+    width: 100%;
+    padding: 5px 0px;
+}
+.form-group textarea{
+    width: 100%;
+    padding: 5px 0px;
+}
+#submit{
+    padding: 2px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
